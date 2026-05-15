@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karan Kumar — Frontend Web Developer</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.svg" />
+  <meta name="theme-color" content="#c8f05e" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">KK</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#guestbook">Guestbook</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Frontend Web Developer</p>
+      <h1 class="hero-title">
+        <span class="line">Hi, I'm</span>
+        <span class="line italic">Karan Kumar.</span>
+        <span class="line">I build for the web.</span>
+      </h1>
+      <p class="hero-sub">Software Engineering student at SMI University, Karachi — turning ideas into fast, clean, and beautiful web experiences.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#guestbook" class="btn btn-ghost">Say Hello ↓</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">A developer who loves<br><em>clean interfaces.</em></h2>
+          <p>I'm Karan Kumar, a BS Software Engineering student at Sindh Madressatul Islam University, Karachi. I'm a Frontend Web Developer with hands-on internship experience, passionate about building responsive, user-friendly web applications.</p>
+          <p>I've worked with companies like DevelopersHub Corporation and YoungDev, and I'm always learning — currently exploring React, Node.js, and full-stack development. Outside of code, I enjoy reading tech books, gaming, photography, and traveling.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">6+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num">2</span><span class="stat-label">Internships</span></div>
+            <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Certificates</span></div>
+          </div>
+        </div>
+        <div class="about-img-wrap">
+          <div class="about-img-placeholder">
+            <img src="profile.jpg" alt="Karan Kumar" class="about-photo" />
+            <div class="about-img-tag">Available for projects</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title">Tools &amp; <em>Technologies</em></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">⬡</div>
+          <h3>Languages & Web</h3>
+          <ul>
+            <li>HTML5 &amp; CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>JSON</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⬡</div>
+          <h3>Frameworks</h3>
+          <ul>
+            <li>React.js</li>
+            <li>jQuery</li>
+            <li>Tailwind CSS</li>
+            <li>Next.js (basic)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⬡</div>
+          <h3>Backend & Database</h3>
+          <ul>
+            <li>Node.js &amp; Express</li>
+            <li>MySQL &amp; SQL</li>
+            <li>WordPress</li>
+            <li>REST APIs</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⬡</div>
+          <h3>Tools & Other</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>UI/UX Design</li>
+            <li>SEO</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title">Selected <em>Work</em></h2>
+      <div class="projects-list">
+        <article class="project-item">
+          <div class="project-meta">
+            <span class="project-year">2024</span>
+            <span class="project-tag">Frontend</span>
+          </div>
+          <div class="project-body">
+            <h3>Dental Health Website</h3>
+            <p>A fully responsive dental clinic website with smooth UI, appointment sections, and interactive components.</p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span><span>jQuery</span>
+            </div>
+          </div>
+          <a href="#" class="project-arrow" aria-label="View project">→</a>
+        </article>
+        <article class="project-item">
+          <div class="project-meta">
+            <span class="project-year">2024</span>
+            <span class="project-tag">React</span>
+          </div>
+          <div class="project-body">
+            <h3>E-Commerce Website</h3>
+            <p>A feature-rich online store built with React.js — product listings, cart functionality, and clean UI.</p>
+            <div class="project-tech">
+              <span>React.js</span><span>JavaScript</span><span>CSS</span>
+            </div>
+          </div>
+          <a href="#" class="project-arrow" aria-label="View project">→</a>
+        </article>
+        <article class="project-item">
+          <div class="project-meta">
+            <span class="project-year">2024</span>
+            <span class="project-tag">Full-Stack</span>
+          </div>
+          <div class="project-body">
+            <h3>Todo App with Backend</h3>
+            <p>A full-stack todo application with React frontend and Node.js/Express backend for persistent task management.</p>
+            <div class="project-tech">
+              <span>React</span><span>Node.js</span><span>Express</span>
+            </div>
+          </div>
+          <a href="#" class="project-arrow" aria-label="View project">→</a>
+        </article>
+        <article class="project-item">
+          <div class="project-meta">
+            <span class="project-year">2024</span>
+            <span class="project-tag">Game</span>
+          </div>
+          <div class="project-body">
+            <h3>Simple Simon Game</h3>
+            <p>A fun memory game built with React and Tailwind CSS — tests your pattern-recognition skills.</p>
+            <div class="project-tech">
+              <span>React</span><span>Tailwind CSS</span>
+            </div>
+          </div>
+          <a href="#" class="project-arrow" aria-label="View project">→</a>
+        </article>
+        <article class="project-item">
+          <div class="project-meta">
+            <span class="project-year">2023</span>
+            <span class="project-tag">Utility</span>
+          </div>
+          <div class="project-body">
+            <h3>Currency Converter</h3>
+            <p>A real-time currency converter with live exchange rates and a clean, minimal interface.</p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <a href="#" class="project-arrow" aria-label="View project">→</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE & EDUCATION -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-label">04 — Experience &amp; Education</div>
+      <h2 class="section-title">My <em>Journey</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-type work">Work</span>
+            <h3>Frontend Developer Intern</h3>
+            <p class="timeline-place">YoungDev, Karachi</p>
+            <p class="timeline-date">Jun 2025 – Jul 2025</p>
+            <p>Worked on real-world frontend projects, collaborating with a dev team to build responsive web interfaces.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-type work">Work</span>
+            <h3>Frontend Web Developer Intern</h3>
+            <p class="timeline-place">DevelopersHub Corporation, Karachi</p>
+            <p class="timeline-date">Dec 2024 – Feb 2025</p>
+            <p>Built and maintained frontend components using HTML, CSS, JavaScript, and React in a professional environment.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-type edu">Education</span>
+            <h3>BS Software Engineering</h3>
+            <p class="timeline-place">Sindh Madressatul Islam University, Karachi</p>
+            <p class="timeline-date">Aug 2023 – Present</p>
+            <p>Studying core CS fundamentals, web development, databases, and software engineering principles.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-type edu">Education</span>
+            <h3>Intermediate — Pre-Engineering</h3>
+            <p class="timeline-place">Govt Boys Degree College, Mithi, Tharparkar</p>
+            <p class="timeline-date">2020 – 2022</p>
+            <p>Completed pre-engineering studies with a focus on Mathematics and Physics.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GUESTBOOK / CONTACT -->
+  <section class="section guestbook" id="guestbook">
+    <div class="container">
+      <div class="section-label">05 — Guestbook</div>
+      <h2 class="section-title">Leave a <em>Message</em></h2>
+      <p class="guestbook-intro">Got a project idea? Want to collaborate? Or just want to say hi? I'd love to hear from you. Your message gets saved and displayed below — you'll be part of this page!</p>
+
+      <div class="guestbook-layout">
+        <!-- FORM -->
+        <div class="form-wrap">
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="off" />
+              <span class="field-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span class="optional">(optional)</span></label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="off" />
+              <span class="field-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="4" placeholder="What's on your mind?"></textarea>
+              <span class="field-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+              <span class="btn-label">Send Message</span>
+              <span class="btn-loading" hidden>Sending…</span>
+            </button>
+            <div class="form-success" id="formSuccess" hidden>
+              <span>✓</span> Message sent! Thanks for visiting.
+            </div>
+            <div class="form-error-global" id="formErrorGlobal" hidden>
+              Could not connect to server. Is it running?
+            </div>
+          </form>
+        </div>
+
+        <!-- MESSAGES FEED -->
+        <div class="messages-feed">
+          <div class="feed-header">
+            <h3>Visitor Messages</h3>
+            <span class="feed-count" id="feedCount">—</span>
+          </div>
+          <div class="messages-list" id="messagesList">
+            <div class="messages-loading" id="messagesLoading">
+              <div class="spinner"></div>
+              <p>Loading messages…</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2025 Karan Kumar — khatrikaran243@gmail.com &nbsp;·&nbsp; +92 336 8276045</p>
+      <div class="footer-links">
+        <a href="https://github.com/Karan10010" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/karan-kumar-7279522b3" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- SCROLL TO TOP BUTTON -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+    ↑
+  </button>
+
+  <script src="app.js"></script>
+</body>
+</html>
